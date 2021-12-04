@@ -1,0 +1,7 @@
+{
+       "editor.fontFamily": "Hack",
+       "editor.fontSize": 18,
+      "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.tabSize": 6
+}
