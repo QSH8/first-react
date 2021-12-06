@@ -1,19 +1,20 @@
 import React from 'react'
+import classes from './../css/css_modules/Navigation.module.css'
 
 const Navigation = () => {
       return (
-            <nav className='navigation'>
+            <nav className={classes.nav}>
                   <div>
-                        <a>Profile</a>
+                        <a href='#'>Profile</a>
                   </div>
                   <div>
-                        <a>Messages</a>
+                        <a href='#'>Messages</a>
                   </div>
                   <div>
-                        <a>News</a>
+                        <a href='#'>News</a>
                   </div>
                   <div>
-                        <a>Settings</a>
+                        <a href='#'>Settings</a>
                   </div>               
             </nav>
       )
